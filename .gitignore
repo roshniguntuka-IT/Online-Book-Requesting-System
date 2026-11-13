@@ -1,0 +1,20 @@
+
+# Java build files
+**/target/
+**/*.class
+
+# React build and dependencies
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Environment secrets
+**/.env
+**/.env.*
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
