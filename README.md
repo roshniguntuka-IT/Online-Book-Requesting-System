@@ -1,15 +1,15 @@
-# 📚 Online Book Requesting System
+## Online Book Requesting System
 
 A full-stack web application developed for an Information Resource Center (IRC) to manage books, track availability, and allow employees to request new books.
 
-## 🌟 Project Overview
+## Project Overview
 
 The Online Book Requesting System provides two types of access:
 
 - **Admin:** Logs in to add books, manage availability, and view employee book requests.
 - **Employee:** Can browse available books and submit book requests without registration or login.
 
-## ✨ Features
+## Features
 
 ### Admin
 - Hardcoded admin login for the project demonstration.
@@ -138,14 +138,14 @@ Frontend URL: `http://localhost:5173`
 
 | Method | Endpoint | Description |
 
-| POST | `/api/admin/login` | Admin login |
-| POST | `/api/books` | Add a book (admin) |
-| GET | `/api/books` | View all books |
-| GET | `/api/books/technology/{technology}` | Filter books |
-| PUT | `/api/books/{id}/status` | Update book status (admin) |
-| POST | `/api/requests` | Submit a book request |
-| GET | `/api/requests` | View requests (admin) |
-| GET | `/api/requests/technology/{technology}` | Filter requests (admin) |
+| POST |/api/admin/login            | Admin login |
+| POST | /api/books`                | Add a book (admin) |
+| GET | /api/books`                 | View all books |
+| GET | /api/books/technology/{technology}     | Filter books |
+| PUT | /api/books/{id}/status                 | Update book status (admin) |
+| POST |/api/requests` | Submit a book request |
+| GET | /api/requests` | View requests (admin) |
+| GET | /api/requests/technology/{technology}` | Filter requests (admin) |
 
 Admin-protected API operations require the authorization token returned by the login endpoint.
 
