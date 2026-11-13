@@ -27,6 +27,21 @@ The Online Book Requesting System provides two types of access:
 - Employee ID validation.
 - Mandatory field validation.
 
+## Home Page
+<img width="1867" height="878" alt="Screenshot_13-11-2026_222030_localhost" src="https://github.com/user-attachments/assets/541af19a-d370-4b75-9428-58b2d4cdf96e" />
+## Application Screenshots
+# Home Page
+<img width="1867" height="878" alt="Screenshot_13-11-2026_222030_localhost" src="https://github.com/user-attachments/assets/541af19a-d370-4b75-9428-58b2d4cdf96e" />
+
+# Admin Login
+<img width="1863" height="891" alt="image" src="https://github.com/user-attachments/assets/ee174e1e-6b58-431d-8f19-a003475e7741" />
+
+# Admin Dashboard
+<img width="1827" height="872" alt="image" src="https://github.com/user-attachments/assets/e0477193-5d86-47bc-b10a-f2060258ea8c" />
+
+# Employee Book Requests
+<img width="1850" height="910" alt="image" src="https://github.com/user-attachments/assets/d4598c33-98e2-4dbf-bf9d-596698f5d022" />
+
 ## 🛠️ Technologies Used
 
 | Frontend | React.js |
@@ -41,7 +56,7 @@ The Online Book Requesting System provides two types of access:
 ## 📁 Project Structure
 Online-Book-Requesting-System/
 │
-├── bookrequest/
+├── bookrequest/ 
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/com/irc/bookrequest/
